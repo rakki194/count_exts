@@ -1,0 +1,16 @@
+[package]
+name = "count_exts"
+version = "0.1.0"
+edition = "2024"
+description = "A command-line utility that counts file extensions from stdin input, providing sorted statistics of file types in a directory"
+license = "MIT"
+repository = "https://github.com/rakki194/count_exts"
+homepage = "https://github.com/rakki194/count_exts"
+documentation = "https://docs.rs/count_exts"
+keywords = ["cli", "files", "extensions", "statistics", "utility"]
+categories = ["command-line-utilities", "filesystem"]
+
+[dependencies]
+xio = { path = "../xio", version = "0.1.4" }
+anyhow = "1.0.96"
+tokio = { version = "1.43.0", features = ["full"] }
