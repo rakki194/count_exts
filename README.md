@@ -57,7 +57,6 @@ ls -1 /path/to/directory | count_exts
 
 ## Dependencies
 
-- `xio` (v0.1.4) - Internal I/O utilities
 - `anyhow` (v1.0.96) - Error handling
 - `tokio` (v1.43.0) - Async runtime support
 
